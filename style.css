@@ -26,8 +26,9 @@ form {
   height: 40px;
 }
 button {
-  width: 250px;
+  width: 100px;
   padding: 70px;
+  margin-left: 50px;
 }
 
 /*Social media icon styling*/
@@ -42,4 +43,11 @@ button {
 #twitter-icon {
   color: #0f1419;
   font-size: 3rem;
+}
+
+@media screen and (max-width: 415px) {
+  form {
+    display: inline-block;
+    width: 100%;
+  }
 }
