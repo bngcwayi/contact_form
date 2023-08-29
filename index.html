@@ -22,49 +22,72 @@
     <title>ContactForm</title>
   </head>
   <body>
-    <h1>Contact Form</h1>
-    <form action="">
-      <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">First Name</label>
-        <input
-          type="text"
-          class="form-control"
-          id="formGroupExampleInput"
-          placeholder="Enter your name"
-        />
+    <div class="container-form">
+      <div class="row m-5">
+        <div class="col-6">
+          <h3>Get in touch with us</h3>
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot"></i> 97 Durham Avenue, Salt
+              River
+            </li>
+            <li><i class="fa-solid fa-envelope"></i>email</li>
+            <li>website</li>
+            <li><i class="fa-solid fa-phone"></i>phone</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <form action="">
+            <div class="mb-3">
+              <label for="name" class="form-label">First Name:</label>
+              <input
+                type="text"
+                class="form-control rounded-pill"
+                id="first-name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="last-name" class="form-label">Last Name:</label>
+              <input
+                type="text"
+                class="form-control rounded-pill"
+                id="last-name"
+                placeholder="Enter your Last Name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email:</label>
+              <input
+                type="email"
+                class="form-control rounded-pill"
+                id="email"
+                placeholder="Example@gmail.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="number" class="form-label">Phone Number:</label>
+              <input
+                type="number"
+                class="form-control rounded-pill"
+                id="phone-number"
+                placeholder="+277243366789"
+              />
+            </div>
+            <div class="form-floating mb-3">
+              <textarea
+                class="form-control rounded"
+                placeholder="Write your message here...."
+                id="floatingTextarea"
+              ></textarea>
+              <label for="floatingTextarea">Message:</label>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="formGroupExampleInput2" class="form-label">Last Name</label>
-        <input
-          type="text"
-          class="form-control"
-          id="formGroupExampleInput2"
-          placeholder="Enter your Last Name"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label"
-          >Example label</label
-        >
-        <input
-          type="text"
-          class="form-control"
-          id="formGroupExampleInput"
-          placeholder="Example input placeholder"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label"
-          >Example label</label
-        >
-        <input
-          type="text"
-          class="form-control"
-          id="formGroupExampleInput"
-          placeholder="Example input placeholder"
-        />
-      </div>
-    </form>
+    </div>
     <div class="social-media">
       <footer>
         <a href=""><i class="fa-brands fa-whatsapp" id="whatsapp-icon"></i></a>

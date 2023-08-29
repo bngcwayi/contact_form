@@ -1,3 +1,32 @@
+/*contact form styling*/
+.container-form {
+  margin-top: 20px;
+}
+ul {
+  list-style: none;
+}
+
+form {
+  width: 60%;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  background-color: #d9eaf7;
+  padding: 5%;
+}
+#first-name {
+  height: 40px;
+}
+#last-name {
+  height: 40px;
+}
+#email {
+  height: 40px;
+}
+#phone-number {
+  height: 40px;
+}
+
+/*Social media icon styling*/
 #whatsapp-icon {
   color: #27d367;
   font-size: 3rem;
